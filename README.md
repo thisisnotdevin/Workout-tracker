@@ -7,7 +7,12 @@ created cards that will hold future projects
 
 ### Next Steps
 - change the boxes to the current projects in my repository, showcase the website
-- edit the carsd to look nicer
-- git commit -a -m "message"
-- git config --global alias.pushall '!git add -A && git commit -a -m "$1" && git push'
-- git pushall "commit message"
+- edit the cards to look nicer
+
+### Some basic git commands:
+``` 
+git commit -a -m "message"
+
+git config --global alias.pushall '!git add -A && git commit -a -m "$1" && git push'
+git pushall "commit message"
+```
