@@ -1,6 +1,8 @@
 # project-bread
+using basic html, css, javascript
+
 ## Initial layout:
-![image](https://user-images.githubusercontent.com/66978846/228591617-df948458-b59c-4092-a4c6-08cc6278a87e.png)
+![image](https://user-images.githubusercontent.com/66978846/228688447-09067caa-2c23-41f4-aec1-7a1199ab7da1.png)
 ### Next Steps
 - change the boxes to the current projects in my repository, showcase the website
 - edit the carsd to look nicer
