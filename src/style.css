@@ -40,7 +40,7 @@
   line-height: 1;
   border-radius: 500px;
   transition-property: background-color,border-color,color,box-shadow,filter;
-  transition-duration: .3s;
+  transition-duration: .1s;
   border: 1px solid transparent;
   letter-spacing: 2px;
   min-width: 160px;
@@ -60,12 +60,12 @@
 
 .animate-bottom {
   animation-name: animatebottom;
-  animation-duration: 2s;
+  animation-duration: 1.5s;
   animation-fill-mode: forwards;
 }
 .animate-button{
   animation-name: animatebottom;
-  animation-delay: 1s;
+  animation-delay: 0.7s;
   animation-duration: 2s;
   animation-fill-mode: forwards;
 }
@@ -110,10 +110,11 @@ container {
   grid-gap: 8vh;
   margin: 10vh;
   margin-bottom: 15vh;
+  min-height: 100vh;
 }
 
 .card {
-  padding: 1rem;
+
   width: 100%;
   height: 100%;
   min-height: 200px;
@@ -123,8 +124,8 @@ container {
   cursor: pointer;
   transition: transform 0.3s ease-out;
   position: relative;
-  opacity: 0;
-  animation: fade-in 3s ease-out forwards;
+  /* opacity: 0;
+  animation: fade-in 3s ease-out forwards; */
   display: flex; 
   justify-content: center; 
   align-items: center; 
@@ -136,10 +137,13 @@ container {
 .card-description {
   align-items: center;
   text-align: center;
+  display: flex;
 }
 .card img {
   width: 45%;
   height: 45%;
+  margin: 1rem;
+  border-radius: 5%;
 }
 .card p {
   color: white;
@@ -267,6 +271,25 @@ section {
     grid-template-rows: auto; 
     grid-gap: 50px; 
   }
+}
+
+
+
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateY(50%);
+  transition: all 1s;
+}
+@media(prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
+}
+.show {
+  filter: blur(0);
+  opacity: 1;
+  transform: translateY(0);
 }
 
 
