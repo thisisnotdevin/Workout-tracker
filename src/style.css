@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 :root {
   --primary-color: #007bff;
   --secondary-color: #585858;
@@ -16,7 +19,18 @@
   --social-icon5: #0077B5;  
   
 }
+::-webkit-scrollbar {
+  width: 6px;
+}
 
+::-webkit-scrollbar-thumb {
+  background-color: var(--bg);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--dark-mode);
+}
 * {
   margin: 0;
   padding: 0;  
@@ -24,11 +38,87 @@
   /* border: 1px solid red; */
 }
 
+
+.navbar {
+  padding-top: 1%;
+  background-color: var(--dark-mode);
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  transition: all 0.3s ease;
+  
+
+}
+
+.navbar.hidden {
+  transform: translateY(-100%);
+}
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin: 1%;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item {
+  margin: 0 20px;
+  
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.nav-item a:hover {
+  color: #fff;
+  transition: all 0.1s ease;
+}
+
+.btn-box {
+  background-color: var(--dark-mode);
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.btn-box a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.btn-box:hover {
+  background-color: #fff;
+  transition: all 0.8s ease;
+}
+
+.btn-box:hover a {
+  color: #333;
+}
+
 .animate-bottom {
   position: relative;
   bottom: -50px;
   opacity: 0;
+
 }
+
+/* checkout my project button */
 .animate-button {
   position: relative;
   bottom: -50px;
@@ -38,7 +128,7 @@
   cursor: pointer;
   font-size: 14px;
   line-height: 1;
-  border-radius: 500px;
+  border-radius: 8px;
   transition-property: background-color,border-color,color,box-shadow,filter;
   transition-duration: .1s;
   border: 1px solid transparent;
@@ -55,6 +145,7 @@
 }
 .animate-button:hover{
   color: #fff;
+  transition: all 0.4s ease;
   background-color: #616467;
 }
 
@@ -62,6 +153,7 @@
   animation-name: animatebottom;
   animation-duration: 1.5s;
   animation-fill-mode: forwards;
+  
 }
 .animate-button{
   animation-name: animatebottom;
@@ -88,14 +180,75 @@
   align-items: center;
   color: white;
   min-height: 100vh;
+
+}
+.intro p {
+  margin: 3rem;
+  text-align: center;
+  color: #c3c3c3;
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
 }
 
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.intro .highlight-word {
+  color: #ADD8E6;
+  font-weight: bold;
+}
 .intro-button {
   display: flex;
   justify-content: center;
   align-items: center;
 
 }
+.about-me {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--dark-mode);
+}
+
+.about-me-content {
+
+  max-width: 80vh;
+  max-height: 70%;
+  padding: 20px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: white;
+  background-color: transparent;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  animation: fade-in 3s ease-out forwards;
+}
+.about-me-content p {
+  text-align: left;
+}
+.about-me img{
+
+  border-radius: 1rem;
+}
+.img-border {
+  padding: 1rem;
+  border: 2px solid var(--color-icon);
+  border-radius: 1rem;
+}
+
 body {
   background-color: var(--dark-mode);
 
@@ -111,10 +264,12 @@ container {
   margin: 10vh;
   margin-bottom: 15vh;
   min-height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .card {
-
+  min-width: 50vh;
   width: 100%;
   height: 100%;
   min-height: 200px;
@@ -124,8 +279,7 @@ container {
   cursor: pointer;
   transition: transform 0.3s ease-out;
   position: relative;
-  /* opacity: 0;
-  animation: fade-in 3s ease-out forwards; */
+
   display: flex; 
   justify-content: center; 
   align-items: center; 
@@ -277,7 +431,7 @@ section {
 
 .hidden {
   opacity: 0;
-  filter: blur(5px);
+  filter: blur(2px);
   transform: translateY(50%);
   transition: all 1s;
 }

@@ -12,15 +12,46 @@
 </head>
 
 <body>
-  
+  <nav class="navbar">
+    <ul class="nav-list">
+      <li class="nav-item" onclick="scrollBy100vh()" ><a href="#">01. about</a></li>
+      <li class="nav-item" onclick="sendEmail()"><a href="#">02. contact</a></li>
+      <li class="nav-item" onclick="scrollToBottom()"><a href="#">03. socials</a></li>
+      <li class="nav-item btn-box" onclick="openPDF()"><a href="#">04. resume</a></li>
+    </ul>
+  </nav>
   <div class="intro">
     <h1 class="animate-bottom">
-      hello my name is Devin 
+      hello my name is <span class="highlight-word">Devin.</span> 
     </h1>
-    <br><br><br>
-    <button class="animate-button" onclick="scrollBy100vh()" >check out my projects</button>
+    
+    <p>I am a <span class="highlight-word">software engineer</span> with a passion in front-end. I like to create <br>user-friendly interfaces,  
+      and designing intuitive and visually appealing apps.</p>
+
+    
+    <button class="animate-button" onclick="scrollBy200vh()" >check out my projects</button>
   </div>
-  
+
+
+  <div class="about-me hidden">
+		<div class="about-me-content">
+			<h1>About Me</h1>
+      <br>
+			<p>Hi there! My name is Devin and I enjoy creating things, whether it's drawings, websites, or food recipes. Recently, 
+        I've developed an interest in web development and started working on my own small website projects. I found it to be 
+        an enjoyable experience! 
+
+        <br><br> I'm constantly striving to learn new things every day to enhance the speed, smoothness, and 
+        visual appeal of my creations. Currently, I have experience in HTML/CSS and JavaScript, but I'm looking to expand my 
+        knowledge by learning new technologies every day.
+      </p>
+		</div>
+    <div class="img-border">
+      <img src="../images/pfp.jpg" alt="">
+    </div>
+  </div>
+
+
   <container class="hidden">
 
     <div class="card" data-tooltip="Recipe App">
