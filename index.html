@@ -1,30 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- git commit -a -m "message" -->
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Title</title>
+  <title>Devin's Porfolio</title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-
+  <div class="intro">
+    <h1 class="animate-bottom">
+      hello my name is Devin
+    </h1>
+    <br><br><br>
+    <button class="animate-button" onclick="scrollBy100vh()" >check out my projects</button>
+  </div>
+  
   <container>
 
     <div class="card" data-tooltip="Recipe App" onclick="toggleBox()">
-      <a href="https://htmlpreview.github.io/?https://github.com/thisisnotdevin/summer-projects/blob/master/recipe-app/index.html" target="_blank">
+      <a href="https://htmlpreview.github.io/?https://github.com/thisisnotdevin/summer-projects/blob/main/recipe-app/index.html" target="_blank">
         <div class="card-description">
           <img src="./images/recipeBanner.png">
+          
           <p>This is my recipe website using API and some stuff</p>
         </div>
       </a>
     </div>
-    
-    
+
 
     <div class="card" data-tooltip="This is a tooltip" onclick="toggleBox()">
       <h1>Card 2</h1>
@@ -60,28 +67,26 @@
 
 
   </container>
-  <div class="footer-social">
-    <ul>
-      <li><a href="#"><img src="./images/fblogo.png" alt="Facebook"></a></li>
-      <li><a href="#"><img src="./images/instagram.png" alt="Instagram"></a></li>
-      <li><a href="#"><img src="./images/hobbies.png" alt="Hobbies"></a></li>
-      <li><a href="#"><img src="./images/tweet.png" alt="Twitter"></a></li>
+  <section>
+    <ul class="footer-social">
+      <li class="icon-item">
+        <a href="#" onclick="sendEmail()" class="icon-link"><i class="fa-solid fa-envelope"></i></a>
+      </li>
+      <li class="icon-item">
+        <a href="https://www.goodreads.com/user/show/50444234-devin-lin" class="icon-link" target="_blank"><i class="fa-brands fa-goodreads"></i></a>
+      </li>
+      <li class="icon-item">
+        <a href="https://www.hackerrank.com/devin1299" class="icon-link" target="_blank"><i class="fa-brands fa-hackerrank"></i></a>
+      </li>
+      <li class="icon-item">
+        <a href="https://github.com/thisisnotdevin" class="icon-link" target="_blank"><i class="fa-brands fa-github"></i></a>
+      </li>
+      <li class="icon-item">
+        <a href="https://www.linkedin.com/in/thisisnotdevin/" class="icon-link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      </li>    
     </ul>
-  </div>
-  <footer>
-    <div class="container">
+  </section>
 
-      <div class="footer-links">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-
-    </div>
-  </footer>
 </body>
 
 </html>
