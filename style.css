@@ -44,7 +44,6 @@
   border: 1px solid transparent;
   letter-spacing: 2px;
   min-width: 160px;
-  text-transform: uppercase;
   white-space: normal;
   font-weight: 700;
   text-align: center;
@@ -139,8 +138,8 @@ container {
   text-align: center;
 }
 .card img {
-  width: 35%;
-  height: 35%;
+  width: 45%;
+  height: 45%;
 }
 .card p {
   color: white;
