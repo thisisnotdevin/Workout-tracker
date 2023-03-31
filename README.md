@@ -29,6 +29,8 @@ using basic html, css, javascript -> although it is still under construction, yo
 - added hover features to the footers
 ![image](https://user-images.githubusercontent.com/66978846/229015931-c2f672aa-2517-400f-bc93-d52f609e3cce.png)
 
+## Task
+check animation bug, fix about me, fix different screen problem, make it for phone view as well
 
 
 ### Some basic git commands:
