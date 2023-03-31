@@ -1,5 +1,5 @@
 # project-bread
-using basic html, css, javascript -> although it is still under construction, you can check it out [here](https://htmlpreview.github.io/?https://github.com/thisisnotdevin/project-bread/blob/master/index.html)
+using basic html, css, javascript -> although it is still under construction, you can check it out [here](https://htmlpreview.github.io/?https://github.com/thisisnotdevin/project-bread/blob/master/src/index.html)
 
 ## Day 1 📅:
 ### new features ⚒
