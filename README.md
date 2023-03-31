@@ -29,6 +29,13 @@ using basic html, css, javascript -> although it is still under construction, yo
 - added hover features to the footers
 ![image](https://user-images.githubusercontent.com/66978846/229015931-c2f672aa-2517-400f-bc93-d52f609e3cce.png)
 
+## Day 5 📅:
+### new features ⚒
+- added navbar with functional buttons
+- added description for the main page with customized text
+- more transition effects
+![image](https://user-images.githubusercontent.com/66978846/229250219-56b77dec-5df9-4073-8ae7-86c74d2fc89f.png)
+
 ## Task
 check animation bug, fix about me, fix different screen problem, make it for phone view as well
 
