@@ -1,4 +1,4 @@
-# project-bread🍞
+# personal-website🍞
 using basic html, css, javascript -> although it is still under construction, you can check it out [here](https://htmlpreview.github.io/?https://github.com/thisisnotdevin/project-bread/blob/main/src/index.html)
 
 ## Day 1 📅:
