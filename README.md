@@ -1,5 +1,5 @@
 # project-bread
-using basic html, css, javascrip -> although it is still under construction, you can check it out [here](https://htmlpreview.github.io/?https://github.com/thisisnotdevin/project-bread/blob/master/index.html)
+using basic html, css, javascript -> although it is still under construction, you can check it out [here](https://htmlpreview.github.io/?https://github.com/thisisnotdevin/project-bread/blob/master/index.html)
 
 ## Day 1:
 created cards that will hold future projects
