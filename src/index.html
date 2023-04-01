@@ -8,14 +8,17 @@
   <title>Devin's Porfolio</title>
   <link rel="stylesheet" href="./style.css">
   <script src="./script.js" defer></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
   <nav class="navbar">
-    <img src="../images/White_Globe_Icon.png" style="width: 50px; padding-left: 2%; cursor: pointer; "  onclick="location.reload()" alt="">
+    <img src="../images/White_Globe_Icon.png" style="width: 50px; padding-left: 2%; cursor: pointer; "
+      onclick="location.reload()" alt="">
     <ul class="nav-list">
-      <li class="nav-item" onclick="scrollBy100vh()" ><a href="#">01. about</a></li>
+      <li class="nav-item" onclick="scrollBy100vh()"><a href="#">01. about</a></li>
       <li class="nav-item" onclick="sendEmail()"><a href="#">02. contact</a></li>
       <li class="nav-item" onclick="scrollToBottom()"><a href="#">03. socials</a></li>
       <li class="nav-item btn-box" onclick="openPDF()"><a href="#">04. resume</a></li>
@@ -23,31 +26,36 @@
   </nav>
   <div class="intro">
     <h1 class="animate-bottom">
-      hello my name is <span class="highlight-word">Devin.</span> 
+      hello my name is <span class="highlight-word">Devin.</span>
     </h1>
-    
-    <p>I am a <span class="highlight-word">software engineer</span> with a passion in front-end. I like to create <br>user-friendly interfaces,  
-      and designing intuitive and visually appealing <span class="highlight-word underline-word" onclick="scrollBy200vh()">apps</span>.</p>
 
-    
-    <button class="animate-button" onclick="scrollBy200vh()" >check out my projects</button>
+    <p>I am a <span class="highlight-word">software engineer</span> with a passion in front-end. I like to create
+      <br>user-friendly interfaces,
+      and designing intuitive and visually appealing <span class="highlight-word underline-word"
+        onclick="scrollBy200vh()">apps</span>.</p>
+
+
+    <button class="animate-button" onclick="scrollBy200vh()">check out my projects</button>
   </div>
 
 
   <div class="about-me hidden">
-		<div class="about-me-content">
-			<h1>about Me</h1>
+    <div class="about-me-content">
+      <h1>about Me</h1>
       <br>
-			<p>Hi there! My name is Devin and I enjoy creating things, whether it's drawings, websites, or food recipes. Recently, 
-        I've developed an interest in web development and started working on my own small website projects. I found it to be 
-        an enjoyable experience! 
+      <p>Hi there! My name is Devin and I enjoy creating things, whether it's drawings, websites, or food recipes.
+        Recently,
+        I've developed an interest in web development and started working on my own small website projects. I found it
+        to be
+        an enjoyable experience!
 
-        <br><br> I'm constantly striving to learn new things every day to enhance the speed, smoothness, and 
-        visual appeal of my creations. Currently, I have experience in HTML/CSS and JavaScript, but I'm looking to expand my 
+        <br><br> I'm constantly striving to learn new things every day to enhance the speed, smoothness, and
+        visual appeal of my creations. Currently, I have experience in HTML/CSS and JavaScript, but I'm looking to
+        expand my
         knowledge by learning new technologies every day.
       </p>
-		</div>
-    <div class="img-border" >
+    </div>
+    <div class="img-border">
       <img src="../images/pfp.jpg" alt="">
     </div>
   </div>
@@ -56,30 +64,33 @@
   <container class="hidden">
 
     <div class="card" data-tooltip="Recipe App">
-      <a href="https://htmlpreview.github.io/?https://github.com/thisisnotdevin/summer-projects/blob/main/recipe-app/index.html" target="_blank">
+      <a href="https://htmlpreview.github.io/?https://github.com/thisisnotdevin/summer-projects/blob/main/recipe-app/index.html"
+        target="_blank">
         <div class="card-description">
           <img src="../images/recipeBanner.png">
-          
+
           <p>this is my recipe website so you can find fun things to cook instead of eating out so often</p>
         </div>
       </a>
     </div>
 
     <div class="card" data-tooltip="Movie Showcase">
-      <a href="https://htmlpreview.github.io/?https://github.com/thisisnotdevin/summer-projects/blob/main/movie-app/index.html" target="_blank">
+      <a href="https://htmlpreview.github.io/?https://github.com/thisisnotdevin/summer-projects/blob/main/movie-app/index.html"
+        target="_blank">
         <div class="card-description">
           <img src="../images/movieBanner.png">
-          
+
           <p>this is my website to show trending movies and what it is about, unfortunally you can't watch them here</p>
         </div>
       </a>
     </div>
 
     <div class="card" data-tooltip="Quiz Maker">
-      <a href="https://htmlpreview.github.io/?https://github.com/thisisnotdevin/summer-projects/blob/master/quiz-app/index.html" target="_blank">
+      <a href="https://htmlpreview.github.io/?https://github.com/thisisnotdevin/summer-projects/blob/master/quiz-app/index.html"
+        target="_blank">
         <div class="card-description">
           <img src="../images/quizBanner.png">
-          
+
           <p>this is a quiz website, you can make your own quiz and test your friends</p>
         </div>
       </a>
@@ -89,17 +100,18 @@
       <a href="https://devin-covid-tracker.netlify.app/" target="_blank">
         <div class="card-description">
           <img src="../images/covidBanner.png">
-        
+
           <p>this is a covid tracking website, it tracks the covid recoveries, death, and cases</p>
         </div>
       </a>
     </div>
 
     <div class="card" data-tooltip="Tips Calculator">
-      <a href="https://htmlpreview.github.io/?https://github.com/Ed-ward239/Project/blob/main/src/index.html" target="_blank">
+      <a href="https://htmlpreview.github.io/?https://github.com/Ed-ward239/Project/blob/main/src/index.html"
+        target="_blank">
         <div class="card-description">
           <img src="../images/tipcalculator.png">
-        
+
           <p>this calculates how much you have to tip, pay, and venmo/paypal your friends</p>
         </div>
       </a>
@@ -109,7 +121,7 @@
       <a href="https://thisisnotdevin.itch.io/group-2-how-to-survive-college" target="_blank">
         <div class="card-description">
           <img src="../images/college.png">
-        
+
           <p>game designed to test your abilities of survival</p>
         </div>
       </a>
@@ -119,7 +131,7 @@
       <a href="https://nyc-checklist.netlify.app/src/components/trending.html" target="_blank">
         <div class="card-description">
           <img src="../images/nyccheck.png">
-        
+
           <p>allows users to browse trending events in NYC</p>
         </div>
       </a>
@@ -129,7 +141,7 @@
       <h1>Coming soon</h1>
     </div>
 
-    <div class="card" data-tooltip="This is a tooltip"">
+    <div class=" card" data-tooltip="This is a tooltip"">
       <h1>Coming soon</h1>
     </div>
 
@@ -140,24 +152,28 @@
 
 
   <section>
-    <ul class="footer-social">
+    <ul class=" footer-social">
       <li class="icon-item">
         <a href="#" onclick="sendEmail()" class="icon-link"><i class="fa-solid fa-envelope"></i></a>
       </li>
       <li class="icon-item">
-        <a href="https://www.goodreads.com/user/show/50444234-devin-lin" class="icon-link" target="_blank"><i class="fa-brands fa-goodreads"></i></a>
+        <a href="https://www.goodreads.com/user/show/50444234-devin-lin" class="icon-link" target="_blank"><i
+            class="fa-brands fa-goodreads"></i></a>
       </li>
       <li class="icon-item">
-        <a href="https://www.hackerrank.com/devin1299" class="icon-link" target="_blank"><i class="fa-brands fa-hackerrank"></i></a>
+        <a href="https://www.hackerrank.com/devin1299" class="icon-link" target="_blank"><i
+            class="fa-brands fa-hackerrank"></i></a>
       </li>
       <li class="icon-item">
-        <a href="https://github.com/thisisnotdevin" class="icon-link" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://github.com/thisisnotdevin" class="icon-link" target="_blank"><i
+            class="fa-brands fa-github"></i></a>
       </li>
       <li class="icon-item">
-        <a href="https://www.linkedin.com/in/thisisnotdevin/" class="icon-link" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-      </li>    
-    </ul>
-  </section>
+        <a href="https://www.linkedin.com/in/thisisnotdevin/" class="icon-link" target="_blank"><i
+            class="fab fa-linkedin-in"></i></a>
+      </li>
+      </ul>
+      </section>
 
 </body>
 
