@@ -22,7 +22,7 @@ function scrollToBottom() {
   });
 }
 function openPDF() {
-  window.open("../myres/resume-devin.pdf", "_blank");
+  window.open("./myres/resume-devin.pdf", "_blank");
 }
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
