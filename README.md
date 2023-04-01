@@ -36,8 +36,17 @@ using basic html, css, javascript -> although it is still under construction, yo
 - more transition effects
 ![image](https://user-images.githubusercontent.com/66978846/229250219-56b77dec-5df9-4073-8ae7-86c74d2fc89f.png)
 
+## Day 6 📅:
+### new features ⚒
+- added about me
+- added logo, fixed bug when screen was too small, text overflow
+- fixed bug about me was too big when screensize was small
+- tested on phone view so its neat
+![image](https://user-images.githubusercontent.com/66978846/229257567-e3944f13-b067-4b76-875c-32c466bd890a.png)
+![image](https://user-images.githubusercontent.com/66978846/229257557-19b87f95-6e66-4454-93f6-0cfe7c21f2c2.png)
+
 ## Task
-check animation bug, fix about me, fix different screen problem, make it for phone view as well
+- all fixed, currently nothing ;)
 
 
 ### Some basic git commands:
