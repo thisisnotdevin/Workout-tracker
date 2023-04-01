@@ -7,7 +7,7 @@
 
 ![image](https://user-images.githubusercontent.com/66978846/229260002-8abc050c-8a9d-4a20-b18d-c94b54fe62e6.png)
 
-
+# full timeline of my website ⌛ (version 1)
 ## Day 1 📅:
 ### new features ⚒
 - created cards that will hold future projects
