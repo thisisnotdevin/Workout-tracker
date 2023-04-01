@@ -1,11 +1,17 @@
 <div align="center">
-<h1> personal website 🍞 </h1>
+<h1> personal website 🍞 
+ 
+ [![Netlify Status](https://api.netlify.com/api/v1/badges/0287d2f1-45c7-4107-8625-32ef37416b3e/deploy-status)](https://app.netlify.com/sites/devinswebsite/deploys)
+<a href="https://circleci.com/gh/badges/shields/tree/master">
+        <img src="https://img.shields.io/circleci/project/github/badges/shields/master" alt="build status"></a>
+
+ 
+ </h1>
  </div>
 <p align="center">using basic html, css, javascript -> although it is still under construction🚧, you can check it here <a href="https://devinswebsite.netlify.app/" target="_blank">devinswebsite.netlify.app/</a> it is built but not fully hosted yet (so you can only have the preview)
 
 </p>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0287d2f1-45c7-4107-8625-32ef37416b3e/deploy-status)](https://app.netlify.com/sites/devinswebsite/deploys)
 
 ![image](https://user-images.githubusercontent.com/66978846/229260002-8abc050c-8a9d-4a20-b18d-c94b54fe62e6.png)
 
