@@ -101,7 +101,10 @@
   border-radius: 5px;
   padding: 10px 20px;
 }
-
+.btn-box:hover {
+  background-color: #fff;
+  transition: all 0.8s ease;
+}
 .btn-box a {
   color: #fff;
   text-decoration: none;
@@ -110,10 +113,7 @@
   transition: all 0.3s ease;
 }
 
-.btn-box:hover {
-  background-color: #fff;
-  transition: all 0.8s ease;
-}
+
 
 .btn-box:hover a {
   color: #333;
@@ -156,19 +156,19 @@
   transition: all 0.4s ease;
   background-color: #616467;
 }
-
-.animate-bottom {
-  animation-name: animatebottom;
-  animation-duration: 1.5s;
-  animation-fill-mode: forwards;
-  
-}
 .animate-button{
   animation-name: animatebottom;
   animation-delay: 0.7s;
   animation-duration: 2s;
   animation-fill-mode: forwards;
 }
+.animate-bottom {
+  animation-name: animatebottom;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  
+}
+
 
 @keyframes animatebottom {
   from {
@@ -422,7 +422,60 @@ section {
 .icon-item:nth-child(5) a:hover:before { 
   background: var(--social-icon5); 
 }
+.email-zone{
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.email-zone p {
+  color: white;
+  max-width: 35%;
+  padding: 3%;
+  text-align: center;
 
+}
+.email-zone h1{
+  padding: 2rem;
+  color: white;
+}
+.email-button {
+  position: relative;
+  bottom: -50px;
+  opacity: 0;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 8px;
+  transition-property: background-color,border-color,color,box-shadow,filter;
+  transition-duration: .1s;
+  border: 1px solid transparent;
+  letter-spacing: 2px;
+  min-width: 160px;
+  white-space: normal;
+  font-weight: 700;
+  text-align: center;
+  padding: 16px 14px 18px;
+  color: white;
+  box-shadow: inset 0 0 0 1px #616467;
+  background-color: transparent;
+  height: 48px;
+}
+.email-button:hover{
+  color: black;
+  transition: all 0.4s ease;
+  background-color: white;
+}
+.email-button{
+  animation-name: animatebottom;
+  animation-delay: 0.7s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
 @keyframes fade-in {
   from {
     opacity: 0;
