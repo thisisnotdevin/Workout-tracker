@@ -1,5 +1,11 @@
-# personal-website🍞
-using basic html, css, javascript -> although it is still under construction, you can check it out [here](https://htmlpreview.github.io/?https://github.com/thisisnotdevin/project-bread/blob/main/src/index.html)
+<div align="center">
+<h1> personal-website 🍞 </h1>
+ </div>
+<p align="center">using basic html, css, javascript -> although it is still under construction🚧, you can check it here <a href="https://htmlpreview.github.io/?https://github.com/thisisnotdevin/project-bread/blob/main/src/index.html" target="_blank">devinlin.com</a> it is built but not fully hosted yet (so you can only have the preview)
+
+</p>
+
+![image](https://user-images.githubusercontent.com/66978846/229260002-8abc050c-8a9d-4a20-b18d-c94b54fe62e6.png)
 
 
 ## Day 1 📅:
