@@ -524,7 +524,11 @@ section {
   transform: translateY(0);
 }
 
-
+.signature h3{
+  color: var(--color-icon);
+  text-align: center;
+  margin: 3%;
+}
 
 
 
