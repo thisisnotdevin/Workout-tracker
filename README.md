@@ -46,7 +46,9 @@ using basic html, css, javascript -> although it is still under construction, yo
 ![image](https://user-images.githubusercontent.com/66978846/229257557-19b87f95-6e66-4454-93f6-0cfe7c21f2c2.png)
 
 ## Task
-- all fixed, currently nothing ;)
+- scroll back up button
+- dark/light more
+- language option
 
 
 ### Some basic git commands:
