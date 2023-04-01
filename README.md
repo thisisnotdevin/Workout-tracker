@@ -1,5 +1,5 @@
 <div align="center">
-<h1> personal-website 🍞 </h1>
+<h1> personal website 🍞 </h1>
  </div>
 <p align="center">using basic html, css, javascript -> although it is still under construction🚧, you can check it here <a href="https://htmlpreview.github.io/?https://github.com/thisisnotdevin/project-bread/blob/main/src/index.html" target="_blank">devinlin.com</a> it is built but not fully hosted yet (so you can only have the preview)
 
