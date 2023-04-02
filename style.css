@@ -37,6 +37,12 @@
   font-family: 'Roboto Mono', monospace;
   /* border: 1px solid red; */
 }
+#scroll-to-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
 .underline-word {
   cursor: pointer;
   text-decoration: underline;
@@ -249,13 +255,13 @@
 }
 .about-me img{
 
+  box-shadow: rgba(0, 191, 255, 0.4) 5px 5px, rgba(0, 191, 255, 0.3) 10px 10px, rgba(0, 191, 255, 0.2) 15px 15px, rgba(0, 191, 255, 0.1) 20px 20px, rgba(0, 191, 255, 0.05) 25px 25px;
   border-radius: 10px;
 
 }
-.img-border {
 
+.img-border {
   padding: 1rem;
-  border: 2px solid var(--color-icon);
   border-radius: 10px;
   max-width: fit-content;
   
@@ -537,6 +543,7 @@ section {
   .navbar{
     max-width: 100%;
   }
+  
   .btn-box{
     padding: 5px
   }
@@ -611,5 +618,38 @@ section {
     padding: 0;
   }
 }
+#scroll-to-top-btn {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 10%;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  transition: all 0.2s ease-in-out; 
+  transform: translateZ(0); 
+  z-index: 9999; 
+}
 
+#scroll-to-top-btn:active {
+  transform: translateY(2px) translateZ(0); 
+  box-shadow: none; 
+}
+
+
+#scroll-to-top-btn:hover {
+  background-color: var(--bg);
+}
+#scroll-to-top-btn:hover i {
+  color: black;
+}
+#scroll-to-top-btn i {
+  color: white;
+  font-size: 20px;
+  line-height: 50px;
+  margin-left: 2px;
+}
 

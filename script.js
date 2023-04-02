@@ -24,6 +24,7 @@ function scrollToBottom() {
 function openPDF() {
   window.open("./myres/resume-devin.pdf", "_blank");
 }
+// hidden element shows up
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
     console.log(entry);
@@ -47,4 +48,44 @@ window.onscroll = function () {
   }
   prevScrollpos = currentScrollPos;
 };
+// hidden element shows up
 
+
+// container effect removed for phone
+const container = document.getElementById('my-container');
+
+function handleResize() {
+  if (window.innerWidth <= 767) {
+    container.classList.remove('hidden');
+  } else {
+    container.classList.add('hidden');
+  }
+}
+
+window.addEventListener('resize', handleResize);
+handleResize(); // call the function initially
+// container effect removed for phone
+
+
+// button to scroll to top
+const scrollToTopBtn = document.getElementById('scroll-to-top-btn');
+
+function handleScroll() {
+  if (window.pageYOffset > 100) {
+    scrollToTopBtn.style.display = 'block';
+  } else {
+    scrollToTopBtn.style.display = 'none';
+  }
+}
+
+function scrollToTop() {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+}
+
+window.addEventListener('scroll', handleScroll);
+scrollToTopBtn.addEventListener('click', scrollToTop);
+
+// button to scroll to top
