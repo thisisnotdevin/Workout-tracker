@@ -35,7 +35,7 @@
   margin: 0;
   padding: 0;  
   font-family: 'Roboto Mono', monospace;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .underline-word {
   cursor: pointer;
@@ -532,7 +532,7 @@ section {
 }
 
 /* phone */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
 
   .navbar{
     max-width: 100%;
@@ -546,6 +546,11 @@ section {
     display: flex;
     
   }
+  .img-border img{
+    width: 100%;
+    
+  }
+ 
   .nav-item a{
   
     font-size: 10px;
@@ -555,7 +560,7 @@ section {
   .animate-bottom {
     text-align: center;
   }
- 
+  
   .about-me-content {
     padding: 0;
     max-height: none;
@@ -564,8 +569,24 @@ section {
     font-size: 14px;
     
   }
+
+  
+  .card {
+    margin-top: 1rem;
+    min-width: 10px; 
+    min-height: 230px; 
+
+  }
+  .card p {
+    margin: 0;
+  }
+  .card img{
+    margin: 0.5rem;
+  }
+
   .card-description p {
     font-size: 10px;
+
   }
   .email-zone p {
     max-width: 100%;
@@ -584,8 +605,9 @@ section {
     padding: 0;
   }
   container {
+    display: block;
     max-width: 100%;
-    margin: 0;
+    margin: 2rem;
     padding: 0;
   }
 }
