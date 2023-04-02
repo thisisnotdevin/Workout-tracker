@@ -60,6 +60,16 @@
 ![image](https://user-images.githubusercontent.com/66978846/229257567-e3944f13-b067-4b76-875c-32c466bd890a.png)
 ![image](https://user-images.githubusercontent.com/66978846/229257557-19b87f95-6e66-4454-93f6-0cfe7c21f2c2.png)
 
+## Day 7 📅:
+### new features ⚒
+- fixed phone view bugs
+- user scroll up will show navbar
+![image](https://user-images.githubusercontent.com/66978846/229363510-20cb493d-86ba-4250-8d47-3f4f2b9c251c.png)
+![image](https://user-images.githubusercontent.com/66978846/229363531-b57262b5-21d9-45d3-b331-9d4eac181f4c.png)
+![image](https://user-images.githubusercontent.com/66978846/229363540-0a1f4135-a903-4ee9-9206-0eecc6cd85ad.png)
+![image](https://user-images.githubusercontent.com/66978846/229363548-aa8be03c-890f-4509-8c82-846da58eab1f.png)
+
+
 ## Task
 - scroll back up button
 - dark/light more
