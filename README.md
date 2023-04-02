@@ -64,6 +64,7 @@
 ### new features ⚒
 - fixed phone view bugs
 - user scroll up will show navbar
+- scroll back up button
 
 ![image](https://user-images.githubusercontent.com/66978846/229363510-20cb493d-86ba-4250-8d47-3f4f2b9c251c.png)
 ![image](https://user-images.githubusercontent.com/66978846/229363531-b57262b5-21d9-45d3-b331-9d4eac181f4c.png)
@@ -72,7 +73,7 @@
 
 
 ## Task
-- scroll back up button
+
 - dark/light more
 - dropdown menu navbar
 - language option
