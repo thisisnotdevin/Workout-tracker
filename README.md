@@ -64,10 +64,11 @@
 ### new features ⚒
 - fixed phone view bugs
 - user scroll up will show navbar
+
 ![image](https://user-images.githubusercontent.com/66978846/229363510-20cb493d-86ba-4250-8d47-3f4f2b9c251c.png)
 ![image](https://user-images.githubusercontent.com/66978846/229363531-b57262b5-21d9-45d3-b331-9d4eac181f4c.png)
 ![image](https://user-images.githubusercontent.com/66978846/229363540-0a1f4135-a903-4ee9-9206-0eecc6cd85ad.png)
-![image](https://user-images.githubusercontent.com/66978846/229363548-aa8be03c-890f-4509-8c82-846da58eab1f.png)
+![image](https://user-images.githubusercontent.com/66978846/229363623-e5e5dfa4-df42-4077-bdba-dc8e2bd931e3.png)
 
 
 ## Task
