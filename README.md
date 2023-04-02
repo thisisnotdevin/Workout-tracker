@@ -74,6 +74,7 @@
 ## Task
 - scroll back up button
 - dark/light more
+- dropdown menu navbar
 - language option
 
 
