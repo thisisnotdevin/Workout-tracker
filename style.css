@@ -106,6 +106,8 @@
   border: 2px solid #fff;
   border-radius: 5px;
   padding: 10px 20px;
+  
+  
 }
 .btn-box:hover {
   background-color: #fff;
@@ -118,7 +120,6 @@
   font-size: 16px;
   transition: all 0.3s ease;
 }
-
 
 
 .btn-box:hover a {
@@ -156,18 +157,23 @@
   box-shadow: inset 0 0 0 2px #616467;
   background-color: transparent;
   height: 48px;
-}
-.animate-button:hover{
-  color: #fff;
-  transition: all 0.4s ease;
-  background-color: #616467;
-}
-.animate-button{
   animation-name: animatebottom;
   animation-delay: 0.7s;
   animation-duration: 2s;
   animation-fill-mode: forwards;
+  background-image: linear-gradient(to left, transparent 50%, #616467 50%);
+  background-position: 100% 0;
+  background-size: 200% 100%;
 }
+
+.animate-button:hover {
+  color: #fff;
+  background-position: 0 0;
+  transition: background-position 0.4s ease;
+}
+
+
+
 .animate-bottom {
   animation-name: animatebottom;
   animation-duration: 1.5s;
@@ -471,18 +477,20 @@ section {
   box-shadow: inset 0 0 0 1px #616467;
   background-color: transparent;
   height: 48px;
-}
-.email-button:hover{
-  color: black;
-  transition: all 0.4s ease;
-  background-color: white;
-}
-.email-button{
+  background-image: linear-gradient(to left, transparent 50%, white 50%);
+  background-position: 100% 0;
+  background-size: 200% 100%;
   animation-name: animatebottom;
   animation-delay: 0.7s;
   animation-duration: 2s;
   animation-fill-mode: forwards;
 }
+.email-button:hover{
+  color: black;
+  background-position: 0 0;
+  transition: background-position 0.4s ease;
+}
+
 @keyframes fade-in {
   from {
     opacity: 0;
