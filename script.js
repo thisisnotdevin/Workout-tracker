@@ -89,3 +89,7 @@ window.addEventListener('scroll', handleScroll);
 scrollToTopBtn.addEventListener('click', scrollToTop);
 
 // button to scroll to top
+function toggleMode() {
+	var body = document.querySelector('body');
+	body.classList.toggle('dark-mode');
+}

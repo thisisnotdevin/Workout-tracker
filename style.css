@@ -4,11 +4,13 @@
 :root {
   --primary-color: #007bff;
   --secondary-color: #585858;
-  --success-color: #28a745;
-  --danger-color: #dc3545;
+  --gray-description-color: #c3c3c3;
+  --highlight-word:#ADD8E6;
+  --card-color: #121214;
   --warning-color: #ffc107;
-  --info-color: #c3c3c3;
+  --info-color: #f1f1f1;
   --dark-mode:#09090c;
+  --project-button:#616467;
 
   --bg: #dcdcdc;     
   --color-icon: #535c68;  
@@ -19,12 +21,20 @@
   --social-icon5: #0077B5;  
   
 }
+.dark-mode {
+	--dark-mode: #b2d3c2;
+	--info-color: #09090c;
+	--card-color: #f5f5f5;
+  --gray-description-color: rgb(85, 85, 85);
+  --highlight-word: #315a39;
+  --project-button: #09090c69;
+}
 ::-webkit-scrollbar {
   width: 6px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--bg);
+  background-color: var(--info-color);
   border-radius: 3px;
 }
 
@@ -51,7 +61,7 @@
   text-align: center;
   justify-content: center;
   display: flex;
-  color: white;
+  color: var(--info-color);
 }
 .navbar {
   padding-top: 1%;
@@ -97,24 +107,24 @@
 }
 
 .nav-item a:hover {
-  color: #fff;
+  color: var(--info-color);
   transition: all 0.1s ease;
 }
 
 .btn-box {
   background-color: var(--dark-mode);
-  border: 2px solid #fff;
+  border: 2px solid var(--info-color);
   border-radius: 5px;
   padding: 10px 20px;
   
   
 }
 .btn-box:hover {
-  background-color: #fff;
-  transition: all 0.8s ease;
+  background-color: var(--info-color);
+  transition: all 0.4s ease;
 }
 .btn-box a {
-  color: #fff;
+  color: var(--info-color);
   text-decoration: none;
   font-family: 'Roboto Mono', monospace;
   font-size: 16px;
@@ -123,7 +133,7 @@
 
 
 .btn-box:hover a {
-  color: #333;
+  color: var(--dark-mode);
 }
 
 .animate-bottom {
@@ -146,28 +156,28 @@
   border-radius: 8px;
   transition-property: background-color,border-color,color,box-shadow,filter;
   transition-duration: .1s;
-  border: 1px solid transparent;
-  letter-spacing: 2px;
+  border: 0.5px solid var(--project-button);
+  letter-spacing: 1px;
   min-width: 160px;
   white-space: normal;
   font-weight: 700;
   text-align: center;
   padding: 16px 14px 18px;
-  color: #616467;
-  box-shadow: inset 0 0 0 2px #616467;
+  color: var(--project-button);
+  box-shadow: inset 0 0 0 2px var(--project-button);
   background-color: transparent;
   height: 48px;
   animation-name: animatebottom;
   animation-delay: 0.7s;
   animation-duration: 2s;
   animation-fill-mode: forwards;
-  background-image: linear-gradient(to left, transparent 50%, #616467 50%);
+  background-image: linear-gradient(to left, transparent 50%, var(--project-button) 50%);
   background-position: 100% 0;
   background-size: 200% 100%;
 }
 
 .animate-button:hover {
-  color: #fff;
+  color: white;
   background-position: 0 0;
   transition: background-position 0.4s ease;
 }
@@ -198,14 +208,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: var(--info-color);
   min-height: 100vh;
 
 }
 .intro p {
   margin: 3rem;
   text-align: center;
-  color: #c3c3c3;
+  color: var(--gray-description-color);
   opacity: 0;
   animation-name: fadeIn;
   animation-duration: 1s;
@@ -224,7 +234,7 @@
   }
 }
 .intro .highlight-word {
-  color: #ADD8E6;
+  color: var(--highlight-word);
   font-weight: bold;
 }
 .intro-button {
@@ -250,9 +260,9 @@
   font-family: sans-serif;
   font-size: 20px;
   line-height: 1.5;
-  color: white;
+  color: var(--info-color);
   background-color: transparent;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   opacity: 0;
   animation: fade-in 3s ease-out forwards;
 }
@@ -275,6 +285,8 @@
 
 body {
   background-color: var(--dark-mode);
+  transition: all 0.3s ease;
+  
 
 }
 
@@ -297,7 +309,7 @@ container {
   width: 100%;
   height: 100%;
   min-height: 200px;
-  background-color: #121214;
+  background-color: var(--card-color);
   border-radius: 1rem;
   border: 2px solid var(--secondary-color);
   cursor: pointer;
@@ -324,7 +336,7 @@ container {
   border-radius: 5%;
 }
 .card p {
-  color: white;
+  color: var(--info-color);
   margin: 1rem;
 }
 
@@ -332,22 +344,24 @@ container {
   content: attr(data-tooltip);
   position: absolute;
   top: -20px;
-  left: 15%;
+  left: 25%;
   transform: translateX(-50%);
-  background-color: #333;
-  color: #fff;
+  background-color: var(--card-color);
+  color: var(--info-color);
   padding: 5px;
   border-radius: 5px;
   font-size: 15px;
+  border: 1px solid var(--dark-mode);
 }
 
 .card:hover {
   transform: scale(1.03);
+  
 }
 
 .card h1 {
   text-align: center;
-  color: white;
+  color: var(--info-color);
   padding: 10px; 
   font-size: 24px; 
 }
@@ -388,7 +402,7 @@ section {
 }
 
 .icon-link:hover {
-  color: #fff;
+  color: white;
 }
 
 .icon-link i {
@@ -434,7 +448,14 @@ section {
 .icon-item:nth-child(5) a:hover:before { 
   background: var(--social-icon5); 
 }
-
+.email-zone-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+  min-height: 80vh;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
 .email-zone{
   padding: 5%;
   display: flex;
@@ -442,9 +463,10 @@ section {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+
 }
 .email-zone p {
-  color: white;
+  color: var(--info-color);
   max-width: 35%;
   padding: 3%;
   text-align: center;
@@ -452,7 +474,7 @@ section {
 }
 .email-zone h1{
   padding: 2rem;
-  color: white;
+  color: var(--info-color);
 }
 .email-button {
   position: relative;
@@ -466,17 +488,17 @@ section {
   border-radius: 8px;
   transition-property: background-color,border-color,color,box-shadow,filter;
   transition-duration: .1s;
-  border: 1px solid white;
+  border: 2px solid var(--info-color);
   letter-spacing: 2px;
   min-width: 160px;
   white-space: normal;
   font-weight: 700;
   text-align: center;
   padding: 16px 14px 18px;
-  color: white;
+  color: var(--info-color);
   background-color: transparent;
   height: 48px;
-  background-image: linear-gradient(to left, transparent 50%, white 50%);
+  background-image: linear-gradient(to left, transparent 50%, var(--info-color) 50%);
   background-position: 100% 0;
   background-size: 200% 100%;
   animation-name: animatebottom;
@@ -485,7 +507,7 @@ section {
   animation-fill-mode: forwards;
 }
 .email-button:hover{
-  color: black;
+  color: var(--dark-mode);
   background-position: 0 0;
   transition: background-position 0.4s ease;
 }
@@ -627,7 +649,7 @@ section {
 }
 #scroll-to-top-btn {
   background-color: transparent;
-  border: 1px solid white;
+  border: 1px solid var(--info-color);
   border-radius: 10%;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
   cursor: pointer;
@@ -654,7 +676,7 @@ section {
   color: black;
 }
 #scroll-to-top-btn i {
-  color: white;
+  color: var(--info-color);
   font-size: 20px;
   line-height: 50px;
   margin-left: 2px;
