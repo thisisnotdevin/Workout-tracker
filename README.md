@@ -83,6 +83,7 @@
 ## Task
 
 - dropdown menu navbar
+- add scroll effect
 - language option
 
 
