@@ -71,10 +71,17 @@
 ![image](https://user-images.githubusercontent.com/66978846/229363540-0a1f4135-a903-4ee9-9206-0eecc6cd85ad.png)
 ![image](https://user-images.githubusercontent.com/66978846/229363623-e5e5dfa4-df42-4077-bdba-dc8e2bd931e3.png)
 
+## Day 8 📅:
+### new features ⚒
+- added dark more
+- depth features only available in light mode
+- removed blur
+
+<img width="987" alt="Screen Shot 2023-04-05 at 9 08 42 AM" src="https://user-images.githubusercontent.com/66978846/230089976-14519e60-7ebe-4058-b734-0d188f66f749.png">
+
 
 ## Task
 
-- dark/light more
 - dropdown menu navbar
 - language option
 
