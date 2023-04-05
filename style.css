@@ -546,7 +546,7 @@ section {
 
 .hidden {
   opacity: 0;
-  filter: blur(2px);
+  
   transform: translateY(50%);
   transition: all 1.5s;
 }
@@ -557,7 +557,7 @@ section {
   }
 }
 .show {
-  filter: blur(0);
+  
   opacity: 1;
   transform: translateY(0);
 }
