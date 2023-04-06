@@ -299,7 +299,6 @@ container {
   grid-template-rows: repeat(3, 29%);
   justify-content: center;
   align-items: center;
-  grid-gap: 3vh;
   margin: 10vh;
   margin-bottom: 15vh;
   min-height: 100vh;
@@ -308,12 +307,11 @@ container {
 }
 
 .card {
- 
-  
+
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
   min-width: 30vh;
   width: 90%;
-  height: 70%;
+  height: 80%;
   min-height: 200px;
   background-color: var(--card-color);
   border-radius: 1.5rem;
@@ -550,7 +548,6 @@ section {
 
 .hidden {
   opacity: 0;
-  
   transform: translateY(50%);
   transition: all 1.5s;
 }
