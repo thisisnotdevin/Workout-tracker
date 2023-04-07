@@ -9,9 +9,9 @@
   --card-color: #121214;
   --warning-color: #ffc107;
   --info-color: #f1f1f1;
-  --dark-mode:#09090c;
+  --dark-mode:#121214;
   --project-button:#616467;
-  /* #535c681c */
+  --technologies: #414143;
 
   --bg: #dcdcdc;     
   --color-icon: #535c68;  
@@ -24,12 +24,13 @@
 }
 .dark-mode {
   transition: all 1s ease;
-	--dark-mode: #b2d3c2;
+	--dark-mode: #fbf4e9;
 	--info-color: #09090c;
 	--card-color: #f5f5f5;
   --gray-description-color: rgb(85, 85, 85);
   --highlight-word: #315a39;
   --project-button: #09090c69;
+  --technologies: #ffffff;
 }
 ::-webkit-scrollbar {
   width: 6px;
@@ -61,6 +62,7 @@
   text-decoration: underline;
 }
 .section-header {
+  margin-top: 3rem;
   text-align: center;
   justify-content: center;
   display: flex;
@@ -102,7 +104,7 @@
 
 .nav-item a {
   text-decoration: none;
-  color: #333;
+  color: #1f3044;
   font-weight: bold;
   font-family: 'Roboto Mono', monospace;
   font-size: 16px;
@@ -215,7 +217,7 @@ h1 {
   align-items: center;
   color: var(--info-color);
   min-height: 100vh;
-  /* border-bottom: 1px solid white; */
+  border-bottom: 1px solid var(--info-color);
 }
 .intro p {
   margin: 3rem;
@@ -249,7 +251,7 @@ h1 {
 
 }
 .about-me {
-  
+  border-bottom: 1px solid var(--info-color);
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -262,7 +264,7 @@ h1 {
   max-width: 80vh;
   max-height: 70%;
   padding: 20px;
-  text-align: center;
+  text-align: left;
   font-family: sans-serif;
   font-size: 20px;
   line-height: 1.5;
@@ -281,6 +283,20 @@ h1 {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
   border-radius: 10px;
 
+}
+.technologies{
+  list-style-type: none;
+
+}
+.technologies li {
+  display: inline-block;
+
+  background-color: var(--technologies);
+  padding: 0.6rem 1rem;
+  border-radius: 4px;
+  margin-right: 1rem;
+  margin-bottom: 1.5rem;
+  border: 2px solid #9499aa;
 }
 
 .img-border {
@@ -303,16 +319,17 @@ container {
   grid-template-rows: repeat(3, 29%);
   justify-content: center;
   align-items: center;
-  margin: 10vh;
+  margin: 5vh;
   margin-bottom: 15vh;
   min-height: 100vh;
   max-height: 100%;
   max-width: 100%;
+  border-bottom: 1px solid var(--info-color);
 }
 
 .card {
 
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 50px -12px inset, rgba(0, 0, 0, 0.171) 0px 18px 26px -18px inset;
   min-width: 30vh;
   width: 90%;
   height: 80%;
