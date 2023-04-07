@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 :root {
   --primary-color: #007bff;
   --secondary-color: #585858;
@@ -11,6 +11,7 @@
   --info-color: #f1f1f1;
   --dark-mode:#09090c;
   --project-button:#616467;
+  /* #535c681c */
 
   --bg: #dcdcdc;     
   --color-icon: #535c68;  
@@ -204,6 +205,9 @@
   }
 }
 
+h1 {
+  font-family: 'Merriweather', serif;
+}
 .intro {
   display: flex;
   flex-direction: column;
@@ -211,7 +215,7 @@
   align-items: center;
   color: var(--info-color);
   min-height: 100vh;
-
+  /* border-bottom: 1px solid white; */
 }
 .intro p {
   margin: 3rem;
