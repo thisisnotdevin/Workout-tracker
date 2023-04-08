@@ -314,6 +314,7 @@ h1 {
 }
 .img-border img {
   margin: 5rem;
+  border: 2px solid var(--border-line);
 }
 
 body {
