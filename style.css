@@ -257,15 +257,20 @@ h1 {
   align-items: center;
 
 }
+.about-me-container {
+  background-color: var(--dark-mode-second);
+}
 .about-me {
-  border-bottom: 2px solid var(--border-line);
+
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--dark-mode-second);
+  
 }
-
+.cards-container {
+  border-top: 2px solid var(--border-line);
+}
 .about-me-content {
   border-radius: 0.5rem;
   max-width: 80vh;
