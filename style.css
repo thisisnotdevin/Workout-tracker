@@ -122,9 +122,9 @@
 }
 
 .btn-box {
-  background-color: var(--dark-mode);
-  border: 2px solid var(--info-color);
-  border-radius: 5px;
+  background-color: var(--info-color);
+  border: 3px solid var(--dark-mode);
+  border-radius: 9px;
   padding: 10px 20px;
   
   
@@ -132,9 +132,11 @@
 .btn-box:hover {
   background-color: var(--info-color);
   transition: all 0.4s ease;
+  box-shadow: 0 0 0 3px var(--info-color); 
+
 }
 .btn-box a {
-  color: var(--info-color);
+  color: var(--dark-mode);
   text-decoration: none;
   font-family: 'Roboto Mono', monospace;
   font-size: 16px;
