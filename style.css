@@ -146,12 +146,7 @@
   color: var(--dark-mode);
 }
 
-.animate-bottom {
-  position: relative;
-  bottom: -50px;
-  opacity: 0;
 
-}
 
 /* checkout my project button */
 .animate-button {
@@ -193,12 +188,7 @@
 
 
 
-.animate-bottom {
-  animation-name: animatebottom;
-  animation-duration: 1.5s;
-  animation-fill-mode: forwards;
-  
-}
+
 
 
 @keyframes animatebottom {
@@ -229,12 +219,6 @@ h1 {
   text-align: center;
   color: var(--gray-description-color);
   
-  opacity: 0;
-  animation-name: fadeIn;
-  animation-duration: 1s;
-  animation-timing-function: ease-in-out;
-  animation-delay: 2s;
-  animation-fill-mode: forwards;
 }
 
 
