@@ -83,8 +83,7 @@
 ## Task
 
 - dropdown menu navbar
-- add scroll effect
-- language option
+- scroll effect
 
 
 ### Some basic git commands:
