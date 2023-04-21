@@ -54,6 +54,19 @@ window.onscroll = function () {
   }
   prevScrollpos = currentScrollPos;
 };
+
+const hiddenElements2 = document.querySelectorAll(".hidden2");
+hiddenElements2.forEach((el) => observer.observe(el));
+
+window.onscroll = function () {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    navbar.classList.remove("hidden2");
+  } else {
+    navbar.classList.add("hidden2");
+  }
+  prevScrollpos = currentScrollPos;
+};
 // hidden element shows up
 
 

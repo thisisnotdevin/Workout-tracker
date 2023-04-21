@@ -672,10 +672,21 @@ section {
   opacity: 0;
   transform: translateY(50%);
   transition: all 1.5s;
+ 
 }
+.hidden2 {
+  opacity: 0;
+  transform: translateY(50%);
+  transition: all 2s;
+
+}
+
 
 @media(prefers-reduced-motion) {
   .hidden {
+    transition: none;
+  }
+  .hidden2 {
     transition: none;
   }
 }
