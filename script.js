@@ -1,4 +1,6 @@
 function sendEmail() {
+  toggleNavbar()
+  flipCheckbox() 
   window.location.href = "mailto:devin1299@outlook.com";
 }
 
@@ -10,14 +12,18 @@ function scrollBy200vh() {
 }
 
 function scrollBy100vh() {
+  toggleNavbar()
+  flipCheckbox() 
   window.scrollBy({
     top: window.innerHeight,
     behavior: "smooth",
   });
 }
 function scrollToBottom() {
+  toggleNavbar()
+  flipCheckbox() 
   window.scrollBy({
-    top: window.innerHeight * 5,
+    top: window.innerHeight * 10,
     behavior: "smooth",
   });
 }
@@ -105,3 +111,13 @@ window.addEventListener('load', function(){
     website.style.display = 'block';
   }, 3000);
 });
+
+function toggleNavbar() {
+  var navbar = document.getElementById("navbar");
+  navbar.classList.toggle("nav-list-hidden");
+}
+
+function flipCheckbox() {
+  var checkbox = document.getElementById("check");
+  checkbox.checked = !checkbox.checked;
+}

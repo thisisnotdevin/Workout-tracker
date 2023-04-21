@@ -32,10 +32,11 @@
     <!-- <img src="./images/White_Globe_Icon.png" style="width: 50px; padding-left: 2%; cursor: pointer;"
       onclick="location.reload()" alt=""> -->
       
-    <ul class="nav-list">
+    <ul class="nav-list"  id="navbar">
       <li class="nav-item" onclick="scrollBy100vh()"><a href="#">01. About</a></li>
       <li class="nav-item" onclick="sendEmail()"><a href="#">02. Contact</a></li>
       <li class="nav-item" onclick="scrollToBottom()"><a href="#">03. Socials</a></li>
+      
       <div class="toggle-switch" >
         <label class="switch">
           <input type="checkbox"onclick="toggleMode()">
@@ -44,7 +45,12 @@
       </div>  
       <li class="nav-item btn-box" onclick="openPDF()"><a href="#">04. Resume</a></li>
     </ul>
-    
+    <label class="hamburger"for="check">
+      <input type="checkbox" id="check" onclick="toggleNavbar()"/> 
+      <span class="ingredients"></span>
+      <span class="ingredients"></span>
+      <span class="ingredients"></span>
+    </label>
   </nav>
   <div class="intro">
     <h1 class="animate-bottom">
@@ -167,8 +173,8 @@
       </a>
     </div>
 
-    <div class="card" data-tooltip="light/dark mode" onclick="toggleMode()">
-      <h1>Theme changer</h1>
+    <div class="card" data-tooltip="This is a tooltip">
+      <h1>Coming soon</h1>
     </div>
 
     <div class="card" data-tooltip="This is a tooltip">
