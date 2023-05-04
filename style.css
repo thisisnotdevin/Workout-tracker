@@ -22,6 +22,7 @@
   --border-line: #aed7df;
   --main-gradient: linear-gradient(to bottom, #cfeeee, #FFFFFF, #38add4);
   --nav-item:#ADD8E6;
+  --nav-background-opacity:rgba(30, 30, 32, 0.99);
 }
 .dark-mode {
   transition: all 1s ease;
@@ -36,6 +37,7 @@
   --border-line: #09181b;
   --main-gradient: linear-gradient(to bottom, #4caf50, #68a875, #315a39);
   --nav-item:#315a39;
+  --nav-background-opacity:rgba(236, 228, 215, 0.99);
 }
 
 
@@ -774,16 +776,17 @@ section {
 
   .nav-list-hidden {
     overflow: visible;
-    border-radius: 2rem;
+    border-radius: 1rem;
     height: 50vh;
     width: 62vw;
-    box-shadow: inset 0 2000px var(--dark-mode-second);
+    box-shadow: inset 0 4000px var(--nav-background-opacity);
     display: flex;
     flex-direction: column;
     transform: translateY(100%); 
     transition: all 0.3s ease-in-out;
-    border: 1px solid black;
+ 
   }
+
   .navbar{
     max-width: 100%;
   }
