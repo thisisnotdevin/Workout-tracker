@@ -114,16 +114,6 @@ function toggleMode() {
 }
 
 
-// window.addEventListener('load', function(){
-//   var loader = document.getElementById('loader');
-//   var website = document.getElementById('website');
-
-//   // Hide the loader after 3 seconds
-//   setTimeout(function(){
-//     loader.style.display = 'none';
-//     website.style.display = 'block';
-//   }, 3000);
-// });
 
 function toggleNavbar() {
   var navbar = document.getElementById("navbar");
