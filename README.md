@@ -8,7 +8,7 @@
  
  </h1>
  </div>
-<p align="center">using basic html, css, javascript -> although it is still under construction🚧, you can check it here <a href="https://devinlin.com/" target="_blank">devinlin.com</a> it is built but not fully hosted yet (so you can only have the preview)
+<p align="center">Using basic html, css, javascript -> although it is still under construction🚧, you can check it here <a href="https://devinlin.com/" target="_blank">devinlin.com</a> there are many more future implementations to come, I just have to learn them first.
 
 </p>
 
