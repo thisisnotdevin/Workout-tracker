@@ -1,5 +1,5 @@
 <div align="center">
-<h1> personal website 🍞 
+<h1> Building a personal website in 10 days! 
  
  [![Netlify Status](https://api.netlify.com/api/v1/badges/0287d2f1-45c7-4107-8625-32ef37416b3e/deploy-status)](https://app.netlify.com/sites/devinswebsite/deploys)
 <a href="https://circleci.com/gh/badges/shields/tree/master">
